@@ -1,0 +1,86 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav>a {
+    padding: 20px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-family: "Sometype Mono", monospace;
+    font-size: 18px;
+}
+
+section {
+    /* border: dotted; */
+    background-color: rgba(175, 255, 255, 0.518);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 10px 10px 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: steelblue;
+    margin: 10px 10px 10px 0px;
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    padding: 20px 20px 5px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+aside>a {
+    padding: 10px;
+}
+
+main>div {
+    width: 80%;
+}
+
+footer {
+    background-color: aliceblue;
+    padding-left: 20px;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-flex {
+        flex-direction: column;
+    }
+}
+
+p {
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+}
+
+video {
+    width: 100%;
+}
